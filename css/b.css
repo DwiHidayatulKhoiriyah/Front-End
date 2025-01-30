@@ -1,0 +1,51 @@
+/* Container carousel */
+.carousel {
+    position: relative;
+    width: 80%;
+    margin: 0px auto;
+    overflow: hidden;
+    border-radius: 0px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Track tempat gambar */
+  .carousel-track {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  /* Gambar carousel */
+  .carousel-image {
+    width: 100%;
+    flex-shrink: 0;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  /* Tombol navigasi */
+  button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0);
+    color: white;
+    border: none;
+    font-size: 30px;
+    padding: 20px;
+    cursor: pointer;
+    z-index: 10;
+    border-radius: 50%;
+  }
+  
+  button:hover {
+    background: rgba(0, 0, 0, 0.7);
+  }
+  
+  .prev {
+    left: 10px;
+  }
+  
+  .next {
+    right: 10px;
+  }
+  
