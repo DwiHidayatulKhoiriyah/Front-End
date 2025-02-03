@@ -21,3 +21,4 @@ function nextSlide() {
 }
 
 window.addEventListener('resize', updateCarousel);
+

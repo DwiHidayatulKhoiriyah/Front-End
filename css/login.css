@@ -70,12 +70,12 @@ input {
 }
 
 .login-btn {
-    background-color: #4caf50;
+    background-color: #007BFF;
     color: #fff;
 }
 
 .login-btn:hover {
-    background-color: #45a049;
+    background-color: #007BFF;
 }
 
 .cancel-btn {
@@ -88,13 +88,17 @@ input {
 }
 
 /* Footer */
-footer {
-    text-align: center;
-    padding: 10px 0;
-    background-color: #F5F5F5;
-    margin-top: 20px;
+.footer {
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 16px;
+    color: gray;
 }
 
+
+    
 footer p {
     margin: 10px;
     color: #777;
